@@ -3,7 +3,7 @@
 This project follows a **microservices architecture**, with the main goal of creating a system capable of registering stock market data and dollar exchange rates.
 
 ```
-Image
+<img width="890" height="706" alt="image" src="https://github.com/user-attachments/assets/607a13ed-7a5f-4a24-9514-504608474b7e" />
 ```
 
 ## Architecture Overview
@@ -29,6 +29,8 @@ Consumes data from an external API to retrieve the current dollar exchange rate.
 #### acoes-service
 Manages stock-related information, using both internal logic and external data sources.
 
+<img width="251" height="162" alt="image" src="https://github.com/user-attachments/assets/b03a9f27-75cd-425c-b487-85767aa612b3" />
+
 Both microservices automatically register themselves with the Eureka service registry.
 
 ### 4. Remote Service
@@ -39,6 +41,9 @@ Eureka provides:
 - Centralized service registration and discovery
 - Dynamic lookup of available microservices
 - Removal of the need for hard-coded endpoints
+
+<img width="869" height="576" alt="image" src="https://github.com/user-attachments/assets/d9fafd3d-a87e-47dd-8137-80d149ddc2e7" />
+
 
 ### 6. H2 Database
 An in-memory SQL database used for local development and testing, providing a lightweight and fast data layer.
@@ -58,6 +63,10 @@ An in-memory SQL database used for local development and testing, providing a li
 - Dynamic service discovery powered by Eureka
 - Centralized routing through the API Gateway
 - Lightweight development environment using H2
+
+## Collaborators
+
+[**Luan Genro**](https://github.com/LuanGenro98) and [**Gustavo Lamb**](https://github.com/GustavoLamb).
 
 ## Collaborators
 
