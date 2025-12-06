@@ -2,9 +2,7 @@
 
 This project follows a **microservices architecture**, with the main goal of creating a system capable of registering stock market data and dollar exchange rates.
 
-```
-<img width="890" height="706" alt="image" src="https://github.com/user-attachments/assets/607a13ed-7a5f-4a24-9514-504608474b7e" />
-```
+![Architecture Diagram](https://github.com/user-attachments/assets/607a13ed-7a5f-4a24-9514-504608474b7e)
 
 ## Architecture Overview
 
