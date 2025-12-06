@@ -24,6 +24,9 @@ The API Gateway serves as the single access point for all clients. It is respons
 #### cotacoes-service
 Consumes data from an external API to retrieve the current dollar exchange rate.
 
+API to get current dolar[https://economia.awesomeapi.com.br/json/last/USD-BRL]
+
+
 #### acoes-service
 Manages stock-related information, using both internal logic and external data sources.
 
