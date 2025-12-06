@@ -65,7 +65,3 @@ An in-memory SQL database used for local development and testing, providing a li
 ## Collaborators
 
 [**Luan Genro**](https://github.com/LuanGenro98) and [**Gustavo Lamb**](https://github.com/GustavoLamb).
-
-## Collaborators
-
-[**Luan Genro**](https://github.com/LuanGenro98) and [**Gustavo Lamb**](https://github.com/GustavoLamb).
