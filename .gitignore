@@ -1,0 +1,144 @@
+###########################################################
+#                GLOBAL JAVA / MAVEN                      #
+###########################################################
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+###########################################################
+#                      MAVEN                               #
+###########################################################
+
+# Maven target directory (all modules)
+target/
+*/target/
+
+# Maven backup files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
+
+###########################################################
+#                SPRING BOOT CONFIG FILES                 #
+###########################################################
+
+# Ignore application files containing sensitive data
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Uncomment if you want to track config in Git:
+# !src/main/resources/application.properties
+# !src/main/resources/application.yml
+
+###########################################################
+#                     IDE CONFIG                          #
+###########################################################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VSCode
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.factorypath
+.settings/
+.springBeans
+bin/
+tmp/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+###########################################################
+#                 OPERATING SYSTEM FILES                  #
+###########################################################
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+###########################################################
+#                   BUILD / PACKAGE ARTIFACTS             #
+###########################################################
+
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+###########################################################
+#                     H2 DATABASE FILES                   #
+###########################################################
+
+*.db
+*.mv.db
+*.h2.db
+
+###########################################################
+#                        EXTRA FILES                      #
+###########################################################
+
+# Temporary files
+*.tmp
+*.swp
+
+# Dependency reduced POM (from shade plugin)
+dependency-reduced-pom.xml
+
+# Logs in services
+*/logs/
+logs/
+
+# Remove IDE module files for microservices
+*/.classpath
+*/.project
+*/.settings/
+
+###########################################################
+#                MICROSERVICES MONOREPO RULES             #
+###########################################################
+
+# Ignore target folder inside each microservice
+*/*/target/
+
+# Ignore module-specific build files
+*/bin/
+*/tmp/
